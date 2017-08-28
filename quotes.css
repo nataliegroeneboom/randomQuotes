@@ -1,0 +1,83 @@
+body{
+  background-color:#F7EBC1;
+}
+
+.main{
+  margin:50px 10px 50px 10px;
+}
+img{
+  height:400px;
+  width:auto;
+}
+.sayings{
+  padding-top:10px;
+}
+#tweet{
+  align:left;
+}
+
+#verse, h2, #author{
+  font-family: 'Nothing You Could Do', cursive;
+}
+h2{
+  font-size:50px;
+  font-style:bold;
+}
+
+#verse{
+  font-size:30px;
+}
+#twbt{
+  font-size:35px;
+}
+
+.btn{
+  background-color:#F7EBC1;
+  outline:none !important;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size:30px;
+  box-shadow: inset 0 0 0 1px #AD976C;
+  border-radius:15px;
+  border:5px;
+}
+.btn:hover{
+  box-shadow: inset 0 0 0 1px #AD976C,0 5px 15px #9B7D48;
+}
+.btn:active{
+  box-shadow: inset 0 0 0 1px #AD976C,0 5px 30px #9B7D48;
+}
+
+
+
+blockquote{
+  margin-top:40px;
+}
+
+blockquote:before {
+ 
+}
+blockquote cite {
+color: #999999;
+display: block;
+margin-top: 5px;
+}
+footer{
+  text-align:center;
+}
+
+@media (max-width:768px){
+  img{
+  height:180px;
+  width:auto;
+}
+  .main{
+    margin: 0 auto;
+  }
+  #tweet, #clickQuotes{
+    display:inline-block;
+    margin: 0 auto;
+    clear:both;
+    align:center;
+  }
+  
+}
